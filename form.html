@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <center>
+        <h1>Application Form</h1>
+        <h3>Annual Competition for Creative Minds</h3>
+
+        <form>
+            <fieldset style="width: 700px;">
+                <legend>Personal Information</legend>
+                
+                First Name: <input type="text" name="firstname"> <br><br>
+
+                Last Name: <input type="text" name="lastname"> <br><br>
+
+                Email Id: <input type="email" name="email"> <br><br>
+
+                Password: <input type="password" name="password"> <br><br>
+
+                Date of Birth: <input type="date" name="dateofbirth"> <br><br>
+
+                Gender: 
+                <input type="radio" name="gender" value="male">Male</input> 
+                <input type="radio" name="gender" value="female">Female</input> <br><br>
+
+                Choose Your Grade:
+                <select name="grade">
+                    <option value="6">Grade 6</option>
+                    <option value="7">Grade 7</option>
+                    <option value="8">Grade 8</option>
+                    <option value="9">Grade 9</option>
+                    <option value="10">Grade 10</option>
+                </select> <br><br>
+
+                Select the Category for Participation:
+                <input type="checkbox" name="category" value="animation"> Animation
+                <input type="checkbox" name="category" value="3dmodel"> 3D Modelling
+                <input type="checkbox" name="category" value="gamedesign"> Game Design  <br><br>
+
+                Address: <br>
+                <textarea name="address" rows="3" cols="50"></textarea>  <br><br>
+
+                Upload Image: <input type="file" name="myimage"> <br><br>
+
+                Rate Us: <input type="range" name="rate" min="1" max="10">  <br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
